@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>stayawake.powershell</id>
+    <title>stayawake.powershell</title>
+    <version>2018.01.17</version>
+    <authors>CMCDragonkai</authors>
+    <owners>dukechem</owners>
+    <summary>stayawake.ps1 PowerShell Script</summary>
+    <description> stayawake.ps1 or stayawake.bat keeps windows awake while executing another executable, or if no executable was passed in, until script stops. </description>
+    <projectUrl>https://gist.github.com/CMCDragonkai/bf8e8b7553c48e4f65124bc6f41769eb</projectUrl>
+    <packageSourceUrl>https://github.com/dukechem/chocolatey-packages/</packageSourceUrl>
+    <tags>stayawake powershell sleep standby wait stay-awake.ps1</tags>
+    <licenseUrl>https://gist.github.com/CMCDragonkai/bf8e8b7553c48e4f65124bc6f41769eb</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
